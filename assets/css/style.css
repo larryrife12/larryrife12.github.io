@@ -27,6 +27,41 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/*contact form feedback*/
+#status {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+#status.success {
+  background: #18d26e;
+  color: #fff;
+}
+
+#status.error {
+  color: #fff;
+  background: #ed3c0d;
+}
+
+@keyframes status{
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
 /* about us */
 
 blockquote {
