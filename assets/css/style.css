@@ -27,6 +27,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/*adding northville novi plymouth
+*/
+.bi-geo-alt-fill {
+  padding-left: 15px;
+}
+
 /*contact form feedback*/
 #status {
   display: none;
@@ -1145,7 +1151,7 @@ section {
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .error-message {
+/*.contact .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1182,6 +1188,7 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
+*/
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
