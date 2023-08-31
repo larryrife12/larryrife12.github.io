@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*contact form feedback*/
+#contact {
+  margin-top: 100px;
+}
+
 #status {
   display: none;
   width: 100%;
@@ -303,9 +307,6 @@ blockquote span {
   visibility: visible;
 }
 
-#contact {
-  margin-top: 100px;
-}
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
