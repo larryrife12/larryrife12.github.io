@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 /* about us */
 
 blockquote {
@@ -301,6 +302,10 @@ blockquote span {
   left: 100%;
   visibility: visible;
 }
+
+#contact {
+  margin-top: 100px;
+}
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -529,6 +534,9 @@ blockquote span {
   }
   #hero .carousel-container {
     top: 66px;
+  }
+  #contact {
+    margin-top: 75px;
   }
 }
 @media (max-width: 768px) {
@@ -1082,6 +1090,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
+  
   border-top: 3px solid #41527A;
   border-bottom: 3px solid #41527A;
   padding: 30px;
@@ -1187,8 +1196,7 @@ section {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
-*/
+}*/
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
